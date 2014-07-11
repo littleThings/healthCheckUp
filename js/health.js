@@ -51,19 +51,30 @@ var health = {
 			health._generate_append_Tmp('血液一般檢查',bloodAna_Arr);
 
 			//Count liver analysis
-			var liverAna_arr = health._countCheckedItem($('.liver-analysis'));
-			health._generate_append_Tmp('肝機能檢查',liverAna_arr);
+			//var liverAna_arr = health._countCheckedItem($('.liver-analysis'));
+			//health._generate_append_Tmp('肝機能檢查',liverAna_arr);
 			
 			//Count bio analysis
 			var bioAna_arr = health._countCheckedItem($('.bio-analysis'));
 			health._generate_append_Tmp('生化檢查',bioAna_arr);		
 
+			//Count uric analysis
+			var uricAna_Arr = health._countCheckedItem($('.uric-analysis'));
+			health._generate_append_Tmp('尿液檢查',uricAna_Arr);
+
+			//Count poo analysis
+			var pooAna_Arr = health._countCheckedItem($('.poo-analysis'));
+			health._generate_append_Tmp('糞便檢查',pooAna_Arr);
+
+			//Count remaining analysis
+			var remainingAna_Arr = health._countCheckedItem($('.remaining-analysis'));
+			//health._generate_append_Tmp('其他',bloodAna_Arr);
 			var otherAna_arr = [];
 			$('.other-el').each(function(i,e){
 				var anaName = $(e).find('span').html();
 				otherAna_arr.push(anaName);
 			});
-			health._generate_append_Tmp('其他',otherAna_arr);
+			health._generate_append_Tmp('其他',otherAna_arr.concat(remainingAna_Arr));
 
 			$('#print-area-container').printArea();
 
