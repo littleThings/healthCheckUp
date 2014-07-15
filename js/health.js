@@ -8,6 +8,19 @@ var health = {
 		health.bind_generateBtn();
 		health.bind_rowClickCheck();
 		health.bind_resetBtn();
+		health.bind_comAnaBtn();
+	},
+	bind_comAnaBtn: function(){
+		$('#sel-com-ana-btn').on('click',function(){
+			$('.com-ana').prop({'checked': true});
+			$(this).addClass('display-none');
+			$('#de-sel-com-ana-btn').removeClass('display-none');
+		});
+		$('#de-sel-com-ana-btn').on('click',function(){
+			$('.com-ana').prop({'checked': false});
+			$(this).addClass('display-none');
+			$('#sel-com-ana-btn').removeClass('display-none');
+		});
 	},
 	bind_resetBtn: function(){
 		$('#reset-btn').on('click',function(){

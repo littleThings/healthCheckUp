@@ -11,16 +11,22 @@
 	<div class="container">
 		<h1>體檢項目生成表</h1>
 		<div class="content-area">
-			<input class="form-control" id="object-name" type="text" placeholder="請輸入姓名"></input>
+			<div class="col-xs-6">
+				<input class="form-control" id="object-name" type="text" placeholder="請輸入姓名"></input>
+			</div>
+			<div>
+				<button class="btn btn-success" id="sel-com-ana-btn">選取常用項目</button>
+				<button class="btn btn-danger display-none" id="de-sel-com-ana-btn">取消選取常用項目</button>
+			</div>
 
 			<div class="analysis-group-title">血液檢查</div>
 			<div class="blood-group">
 				<div class="list-el">
-					<input class="blood-analysis " type="checkbox"></input>
+					<input class="blood-analysis com-ana" type="checkbox"></input>
 					<span>紅血球數(RBC)</span>
 				</div>
 				<div class="list-el">
-					<input class="blood-analysis " type="checkbox"></input>
+					<input class="blood-analysis com-ana" type="checkbox"></input>
 					<span>血紅素(Hb)</span>
 				</div>
 				<div class="list-el">
@@ -32,7 +38,7 @@
 					<span>白血球數(WBC)</span>
 				</div>
 				<div class="list-el">
-					<input class="blood-analysis " type="checkbox"></input> 
+					<input class="blood-analysis com-ana" type="checkbox"></input> 
 					<span>血小板數(Platlet)</span>
 				</div>
 				<div class="list-el">
@@ -146,6 +152,10 @@
 					<input class="bio-analysis " type="checkbox"></input> 
 					<span>三酸甘油脂(TG)</span>
 				</div>
+				<div class="list-el">
+					<input class="bio-analysis " type="checkbox"></input> 
+					<span>B型肝炎</span>
+				</div>
 
 				<div class="analysis-subtitle">膽固醇(Chol)</div>
 
@@ -158,7 +168,7 @@
 					<span>低密度脂蛋白膽固醇(LDL-Chol)</span>
 				</div>
 				<div class="list-el">
-					<input class="bio-analysis " type="checkbox"></input> 
+					<input class="bio-analysis com-ana" type="checkbox"></input> 
 					<span>總膽固醇(Total-Chol)</span>
 				</div>
 			</div>
@@ -166,15 +176,15 @@
 			<div class="analysis-group-title">尿液檢查</div>	
 			<div class="uric-group">
 				<div class="list-el">
-					<input class="uric-analysis " type="checkbox"></input> 
+					<input class="uric-analysis com-ana" type="checkbox"></input> 
 					<span>紅血球</span>
 				</div>
 				<div class="list-el">
-					<input class="uric-analysis " type="checkbox"></input> 
+					<input class="uric-analysis com-ana" type="checkbox"></input> 
 					<span>尿蛋白</span>
 				</div>			
 				<div class="list-el">
-					<input class="uric-analysis " type="checkbox"></input> 
+					<input class="uric-analysis com-ana" type="checkbox"></input> 
 					<span>葡萄糖</span>
 				</div>
 			</div>
@@ -182,15 +192,15 @@
 			<div class="analysis-group-title">糞便檢查</div>	
 			<div class="poo-group">
 				<div class="list-el">
-					<input class="poo-analysis " type="checkbox"></input> 
+					<input class="poo-analysis com-ana" type="checkbox"></input> 
 					<span>桿菌性痢疾</span>
 				</div>
 				<div class="list-el">
-					<input class="poo-analysis " type="checkbox"></input> 
+					<input class="poo-analysis com-ana" type="checkbox"></input> 
 					<span>阿米巴痢疾</span>
 				</div>
 				<div class="list-el">
-					<input class="poo-analysis " type="checkbox"></input> 
+					<input class="poo-analysis com-ana" type="checkbox"></input> 
 					<span>寄生蟲</span>
 				</div>
 			</div>

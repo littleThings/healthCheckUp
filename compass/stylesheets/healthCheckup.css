@@ -22,7 +22,7 @@ h1 {
 
 /* line 17, ../sass/healthCheckup.sass */
 #object-name {
-  width: 25%;
+  width: 75%;
   margin-left: 5px;
 }
 
@@ -92,6 +92,11 @@ h1 {
 }
 
 /* line 68, ../sass/healthCheckup.sass */
+.display-none {
+  display: none;
+}
+
+/* line 71, ../sass/healthCheckup.sass */
 .display-bg-col {
   color: #d1adab;
 }
