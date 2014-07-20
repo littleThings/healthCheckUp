@@ -1,13 +1,3 @@
-@font-face {
-  font-family: "NotoSansHant-Regular";
-  src: url("../../fonts/NotoSansHant-Regular.otf");
-}
-
-/* line 8, ../sass/healthCheckup.sass */
-body {
-  font-family: "NotoSansHant-Regular";
-}
-
 /* line 11, ../sass/healthCheckup.sass */
 .container {
   background: #f6dbd8;
