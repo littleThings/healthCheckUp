@@ -1,14 +1,14 @@
 @font-face {
   font-family: "NotoSansHant-Regular";
-  src: url(/fonts/NotoSansHant-Regular.otf) format('opentype');
+  src: url("../../fonts/NotoSansHant-Regular.otf");
 }
 
-/* line 5, ../sass/healthCheckup.sass */
+/* line 8, ../sass/healthCheckup.sass */
 body {
   font-family: "NotoSansHant-Regular";
 }
 
-/* line 8, ../sass/healthCheckup.sass */
+/* line 11, ../sass/healthCheckup.sass */
 .container {
   background: #f6dbd8;
   width: 750px;
@@ -17,12 +17,12 @@ body {
   margin-bottom: 100px;
 }
 
-/* line 15, ../sass/healthCheckup.sass */
+/* line 18, ../sass/healthCheckup.sass */
 body {
   background: #d1adab;
 }
 
-/* line 18, ../sass/healthCheckup.sass */
+/* line 21, ../sass/healthCheckup.sass */
 h1 {
   background: #802647;
   color: white;
@@ -30,83 +30,83 @@ h1 {
   padding: 15px;
 }
 
-/* line 24, ../sass/healthCheckup.sass */
+/* line 27, ../sass/healthCheckup.sass */
 #object-name {
   width: 75%;
   margin-left: 5px;
 }
 
-/* line 30, ../sass/healthCheckup.sass */
+/* line 33, ../sass/healthCheckup.sass */
 .analysis-group-title {
   font-weight: bold;
   font-size: 1.8em;
   padding: 3px;
 }
 
-/* line 35, ../sass/healthCheckup.sass */
+/* line 38, ../sass/healthCheckup.sass */
 .list-el {
   cursor: pointer;
   margin: 5px;
   font-size: 1.2em;
 }
-/* line 39, ../sass/healthCheckup.sass */
+/* line 42, ../sass/healthCheckup.sass */
 .list-el:hover {
   background: white;
 }
-/* line 41, ../sass/healthCheckup.sass */
+/* line 44, ../sass/healthCheckup.sass */
 .list-el span {
   margin-left: 5px;
 }
 
-/* line 45, ../sass/healthCheckup.sass */
+/* line 48, ../sass/healthCheckup.sass */
 .other-el {
   padding: 10px;
 }
-/* line 48, ../sass/healthCheckup.sass */
+/* line 51, ../sass/healthCheckup.sass */
 .other-el span {
   margin-left: 5px;
   font-size: 1.2em;
 }
 
-/* line 52, ../sass/healthCheckup.sass */
+/* line 55, ../sass/healthCheckup.sass */
 #other-container {
   position: relative;
   top: 10px;
 }
 
-/* line 56, ../sass/healthCheckup.sass */
+/* line 59, ../sass/healthCheckup.sass */
 .analysis-subtitle {
   font-size: 1.3em;
   font-weight: bold;
 }
 
-/* line 60, ../sass/healthCheckup.sass */
+/* line 63, ../sass/healthCheckup.sass */
 .foot-btn {
   margin-left: 20px;
   position: relative;
   top: 20px;
 }
 
-/* line 65, ../sass/healthCheckup.sass */
+/* line 68, ../sass/healthCheckup.sass */
 .copy-right {
   text-align: center;
   width: 750px;
   margin-top: -80px;
 }
 
-/* line 70, ../sass/healthCheckup.sass */
+/* line 73, ../sass/healthCheckup.sass */
 #print-area-mask {
   position: absolute;
   z-index: 10;
   background: red;
 }
 
-/* line 75, ../sass/healthCheckup.sass */
+/* line 78, ../sass/healthCheckup.sass */
 .display-none {
   display: none;
 }
 
-/* line 78, ../sass/healthCheckup.sass */
+/* line 81, ../sass/healthCheckup.sass */
 .display-bg-col {
   color: #d1adab;
 }
